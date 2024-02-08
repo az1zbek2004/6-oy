@@ -1,0 +1,30 @@
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+  list-style-type: none;
+}
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+.card{
+  border: 1.5px solid rgb(67, 67, 67);
+  width: 322px;
+  border-radius:8px;
+}
+.card-img-top{
+  border-top-left-radius:8px;
+  border-top-right-radius:8px; 
+  width: 320px;
+  height: 180px;
+  border-bottom:1px solid rgb(67, 67, 67);
+}
+.card-body{
+  padding: 10px;
+}
+.card-title{
+  margin-bottom: 10px;
+}
